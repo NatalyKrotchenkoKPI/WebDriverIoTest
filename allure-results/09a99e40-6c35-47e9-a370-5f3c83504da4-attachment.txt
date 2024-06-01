@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".logout_sidebar_link\"}\n  (Session info: chrome=125.0.6422.112)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF744081F32+60322]\n\t(No symbol) [0x00007FF743FFCEA9]\n\t(No symbol) [0x00007FF743EB7EBA]\n\t(No symbol) [0x00007FF743F07676]\n\t(No symbol) [0x00007FF743F0773C]\n\t(No symbol) [0x00007FF743F4E967]\n\t(No symbol) [0x00007FF743F2C25F]\n\t(No symbol) [0x00007FF743F4BC80]\n\t(No symbol) [0x00007FF743F2BFC3]\n\t(No symbol) [0x00007FF743EF9617]\n\t(No symbol) [0x00007FF743EFA211]\n\tGetHandleVerifier [0x00007FF74439948D+3301629]\n\tGetHandleVerifier [0x00007FF7443E36B3+3605283]\n\tGetHandleVerifier [0x00007FF7443D9430+3563680]\n\tGetHandleVerifier [0x00007FF744134306+790390]\n\t(No symbol) [0x00007FF7440074EF]\n\t(No symbol) [0x00007FF7440033E4]\n\t(No symbol) [0x00007FF744003572]\n\t(No symbol) [0x00007FF743FF2F7F]\n\tBaseThreadInitThunk [0x00007FF9D309257D+29]\n\tRtlUserThreadStart [0x00007FF9D4AAAA48+40]\n"
+}

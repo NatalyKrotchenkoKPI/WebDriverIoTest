@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "div#inventory_container.inventory_container"
+}

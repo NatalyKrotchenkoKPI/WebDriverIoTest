@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#page_wrapper > footer > ul > li.social_twitter > a"
+}

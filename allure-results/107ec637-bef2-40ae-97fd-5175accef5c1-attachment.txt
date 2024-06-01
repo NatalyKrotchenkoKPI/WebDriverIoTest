@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"btn_action btn_medium checkout_button \"}\n  (Session info: chrome=125.0.6422.114)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF7D3C51F72+60322]\n\t(No symbol) [0x00007FF7D3BCCEE9]\n\t(No symbol) [0x00007FF7D3A87EBA]\n\t(No symbol) [0x00007FF7D3AD7676]\n\t(No symbol) [0x00007FF7D3AD773C]\n\t(No symbol) [0x00007FF7D3B1E967]\n\t(No symbol) [0x00007FF7D3AFC25F]\n\t(No symbol) [0x00007FF7D3B1BC80]\n\t(No symbol) [0x00007FF7D3AFBFC3]\n\t(No symbol) [0x00007FF7D3AC9617]\n\t(No symbol) [0x00007FF7D3ACA211]\n\tGetHandleVerifier [0x00007FF7D3F694BD+3301613]\n\tGetHandleVerifier [0x00007FF7D3FB36E3+3605267]\n\tGetHandleVerifier [0x00007FF7D3FA9460+3563664]\n\tGetHandleVerifier [0x00007FF7D3D04346+790390]\n\t(No symbol) [0x00007FF7D3BD752F]\n\t(No symbol) [0x00007FF7D3BD3424]\n\t(No symbol) [0x00007FF7D3BD35B2]\n\t(No symbol) [0x00007FF7D3BC2FBF]\n\tBaseThreadInitThunk [0x00007FF9D309257D+29]\n\tRtlUserThreadStart [0x00007FF9D4AAAA48+40]\n"
+}

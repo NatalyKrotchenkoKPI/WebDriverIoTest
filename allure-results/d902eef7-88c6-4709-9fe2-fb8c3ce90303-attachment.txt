@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#checkout_summary_container > div > div.cart_list > div.cart_item > div.cart_item_label > div.item_pricebar > div"
+}

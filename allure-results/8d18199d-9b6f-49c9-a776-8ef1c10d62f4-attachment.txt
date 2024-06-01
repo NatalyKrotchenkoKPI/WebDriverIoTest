@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "btn_action btn_medium checkout_button "
+}
