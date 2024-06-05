@@ -5,6 +5,13 @@ exports.config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
+    before: function (capabilities, specs) {
+        /**
+         * Require your helper modules before starting your tests
+         */
+        const LoginPage = require('./test/pageobjects/login.page');
+        const InventoryPage = require('./test/pageobjects/inventory.page');
+    },
     //
     // ==================
     // Specify Test Files

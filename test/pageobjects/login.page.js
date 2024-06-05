@@ -1,40 +1,31 @@
-const { $ } = require('@wdio/globals')
-const Page = require('./page');
+class LoginPage {
+    get usernameInput() { return $('#user-name'); }
+    get passwordInput() { return $('#password'); }
+    get loginButton() { return $('#login-button'); }
+    get loginErrorIcon() { return $('#user-name').parentElement().$('.error_icon'); }
+    get passwordErrorIcon() { return $('#password').parentElement().$('.error_icon'); }
+    get errorMessage() { return $('.error-message-container.error'); }
 
-/**
- * sub page containing specific selectors and methods for a specific page
- */
-class LoginPage extends Page {
-    /**
-     * define selectors using getter methods
-     */
-    get inputUsername () {
-        return $('#username');
+    async open() {
+        await browser.url('https://www.saucedemo.com');
     }
 
-    get inputPassword () {
-        return $('#password');
+    async login(username, password) {
+        await this.usernameInput.setValue(username);
+        await this.passwordInput.setValue(password);
+        await this.loginButton.click();
     }
 
-    get btnSubmit () {
-        return $('button[type="submit"]');
+    async getPasswordFieldType() {
+        return this.passwordInput.getAttribute('type');
     }
 
-    /**
-     * a method to encapsule automation code to interact with the page
-     * e.g. to login using username and password
-     */
-    async login (username, password) {
-        await this.inputUsername.setValue(username);
-        await this.inputPassword.setValue(password);
-        await this.btnSubmit.click();
+    async getLoginBorderColor() {
+        return this.usernameInput.getCSSProperty('border-bottom-color');
     }
 
-    /**
-     * overwrite specific options to adapt it to page object
-     */
-    open () {
-        return super.open('login');
+    async getPasswordBorderColor() {
+        return this.passwordInput.getCSSProperty('border-bottom-color');
     }
 }
 
