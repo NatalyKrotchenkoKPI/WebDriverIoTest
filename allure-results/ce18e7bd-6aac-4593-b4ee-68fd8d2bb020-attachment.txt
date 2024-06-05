@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "svg.svg-inline--fa.fa-times-circle.fa-w-16.error_icon"
-}

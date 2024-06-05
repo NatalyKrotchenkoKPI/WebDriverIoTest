@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "input#password.input_error.form_input"
-}

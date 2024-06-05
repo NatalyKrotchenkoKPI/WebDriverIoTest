@@ -1,9 +1,0 @@
-{
-  "script": "return (function (elem, id) {\n        return (function parentElement() {\n        return this.parentElement;\n    }).call(elem, id);\n    }).apply(null, arguments)",
-  "args": [
-    {
-      "element-6066-11e4-a52e-4f735466cecf": "f.5E1992E1DFF69ABD824C8252BFE6E540.d.008D79C690BA2D56505B6F7273493861.e.3",
-      "ELEMENT": "f.5E1992E1DFF69ABD824C8252BFE6E540.d.008D79C690BA2D56505B6F7273493861.e.3"
-    }
-  ]
-}

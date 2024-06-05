@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "#page_wrapper > footer > ul > li.social_facebook > a"
-}

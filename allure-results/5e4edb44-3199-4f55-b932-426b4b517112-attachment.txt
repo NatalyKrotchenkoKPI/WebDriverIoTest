@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "div#shopping_cart_container.shopping_cart_container"
-}

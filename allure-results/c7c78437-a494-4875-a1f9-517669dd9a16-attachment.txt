@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "input#user-name.input_error.form_input"
-}

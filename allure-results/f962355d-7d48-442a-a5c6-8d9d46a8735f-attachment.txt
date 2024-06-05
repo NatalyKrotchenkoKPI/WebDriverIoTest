@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "#cart_contents_container > div > div.cart_list > div.cart_item > div.cart_item_label > div.item_pricebar > div"
-}

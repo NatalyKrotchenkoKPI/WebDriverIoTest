@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"svg.svg-inline--fa.fa-times-circle.fa-w-16.error_icon\"}\n  (Session info: chrome=125.0.6422.112)",
-  "stacktrace": "\tGetHandleVerifier [0x00007FF6A5221F32+60322]\n\t(No symbol) [0x00007FF6A519CEA9]\n\t(No symbol) [0x00007FF6A5057EBA]\n\t(No symbol) [0x00007FF6A50A7676]\n\t(No symbol) [0x00007FF6A50A773C]\n\t(No symbol) [0x00007FF6A509AEEC]\n\t(No symbol) [0x00007FF6A50CC25F]\n\t(No symbol) [0x00007FF6A509ADB6]\n\t(No symbol) [0x00007FF6A50CC430]\n\t(No symbol) [0x00007FF6A50EBC80]\n\t(No symbol) [0x00007FF6A50CBFC3]\n\t(No symbol) [0x00007FF6A5099617]\n\t(No symbol) [0x00007FF6A509A211]\n\tGetHandleVerifier [0x00007FF6A553948D+3301629]\n\tGetHandleVerifier [0x00007FF6A55836B3+3605283]\n\tGetHandleVerifier [0x00007FF6A5579430+3563680]\n\tGetHandleVerifier [0x00007FF6A52D4306+790390]\n\t(No symbol) [0x00007FF6A51A74EF]\n\t(No symbol) [0x00007FF6A51A33E4]\n\t(No symbol) [0x00007FF6A51A3572]\n\t(No symbol) [0x00007FF6A5192F7F]\n\tBaseThreadInitThunk [0x00007FF9D309257D+29]\n\tRtlUserThreadStart [0x00007FF9D4AAAA48+40]\n"
-}

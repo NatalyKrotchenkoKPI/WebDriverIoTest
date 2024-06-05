@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "https://www.saucedemo.com"
-}
